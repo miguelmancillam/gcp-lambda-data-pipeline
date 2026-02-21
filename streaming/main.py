@@ -3,7 +3,7 @@ import json
 # Inicializa el cliente de Pub/Sub una vez
 
 publisher = pubsub_v1.PublisherClient()
-project_id = "deep-bivouac-461003-m8" # MODIFICAR DE ACUERDO AL PROYECTO QUE USEN EN GCP o GSB
+project_id = "your-project" # MODIFICAR DE ACUERDO AL PROYECTO QUE USEN EN GCP o GSB
 topic_id = "registros"
 topic_path = publisher.topic_path(project_id, topic_id)
 def main(request):
@@ -32,4 +32,5 @@ def main(request):
     return "Completado", 200
 
   except Exception as e:
+
     return f"Error al procesar la solicitud: {e}", 500
