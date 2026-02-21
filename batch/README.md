@@ -71,7 +71,15 @@ dependencies for distributed processing on Cloud Dataflow.
 ## General Execution Command (Dataflow)
 
 ``` bash
-python3 pipeline.py   --input gs://your-bucket/input/*.parquet   --output your-project-id:your_dataset.YellowTaxis   --temp_location gs://your-bucket/temp   --project your-project-id   --region us-central1   --runner DataflowRunner   --staging_location gs://your-bucket/staging   --save_main_session
+python3 pipeline.py  \
+--input gs://your-bucket/input/*.parquet \
+--output your-project-id:your_dataset.YellowTaxis \
+--temp_location gs://your-bucket/temp \
+--project your-project-id \
+--region us-central1 \   
+--runner DataflowRunner \
+--staging_location gs://your-bucket/staging \
+--save_main_session
 ```
 
 ### Parameters Description
