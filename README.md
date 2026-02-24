@@ -12,7 +12,7 @@ Designed and implemented a Lambda-style data architecture integrating batch and 
 
 The project processes:
 
-- 3 years of NYC Yellow Taxi historical data (Batch layer)
+- 3 years of NYC Yellow Taxi historical data (Batch layer) https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 - Real-time auction events simulation (Streaming layer)
 
 ---
@@ -67,7 +67,7 @@ Implementación de una arquitectura Lambda en Google Cloud Platform integrando p
 
 El proyecto procesa:
 
-- 3 años de datos históricos de taxis NYC (capa batch)
+- 3 años de datos históricos de taxis NYC (capa batch) https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 - Eventos simulados de subastas en tiempo real (capa streaming)
 
 ---
